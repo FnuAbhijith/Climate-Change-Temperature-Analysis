@@ -55,10 +55,18 @@ Environment: Jupyter Notebook, Streamlit App
 
 ## 📷 Visual Previews
 
+### Output
+
 ![global_land_temperature_trend](https://github.com/user-attachments/assets/a2625ead-62ff-403a-8d4c-f9e8fcd90979)
 
 
-| ![Streamlit](images/streamlit_screenshot.png) | ![Tableau](images/tableau_linechart.png) |
+### Streamlit Dashboard
+
+![streamlit_temperature_dashboard](https://github.com/user-attachments/assets/34130dad-4bd1-4447-a1da-381b41e92fd4)
+
+![streamlit_temperature_dashboard (2)](https://github.com/user-attachments/assets/374f951f-fea3-45d6-acf2-2666149c78ed)
+
+
 
 
 
