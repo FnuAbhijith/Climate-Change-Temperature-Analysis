@@ -1,81 +1,64 @@
+# 🌍 Climate Change Temperature Analysis
 
-🌍 Climate Change Analysis: Earth Surface Temperature Trends
+This project explores historical climate change by analyzing Earth’s surface temperature trends from 1750 to 2024. It combines Python-based data analysis, Streamlit for interactive dashboards, and Tableau for visual storytelling.
 
-This project analyzes Earth’s surface temperature changes over time using global climate data. It integrates machine learning, interactive dashboards (Streamlit), and visual analytics (Tableau) to explore the impact of climate change from 1850 to 2024.
+## 📌 Objective
+
+To uncover long-term global warming patterns using data and present insights through engaging and interactive visualizations.
+
+## 📊 Dataset
+
+- Source: Kaggle – Global Land Temperatures  
+  https://www.kaggle.com/datasets/zahidmughal2343/global-cancer-patients-2015-2024  
+- Content: Yearly average land temperatures worldwide
+
+## 🧠 Skills Demonstrated
+
+- Time Series Analysis  
+- Data Cleaning and Preprocessing  
+- Interactive Dashboard Design (Streamlit)  
+- Data Visualization (Matplotlib, Plotly, Tableau)  
+- Exploratory Data Analysis (EDA)
+
+## ⚙️ Tech Stack
+
+Language: Python  
+Libraries: pandas, numpy, matplotlib, seaborn, plotly, streamlit  
+Visualization: Tableau  
+Environment: Jupyter Notebook, Streamlit App
+
+## 📈 Results Summary
+
+| Metric                        | Description                                      |
+|------------------------------|--------------------------------------------------|
+| Time Frame                   | 1750–2024                                        |
+| Trend Observed               | Steady global temperature increase since 1900   |
+| Interactive Dashboard        | Built using Streamlit                           |
+| Tableau Visualization        | Yearly Line Chart of Avg. Global Temperature    |
+
+## 🚀 How to Run
+
+1. Clone the repository:
+   git clone https://github.com/YOUR_USERNAME/climate-change-analysis.git
+   cd climate-change-analysis
+
+2. Install required packages:
+   pip install -r requirements.txt
+
+3. Run the Streamlit app:
+   streamlit run streamlit_app.py
+
+4. Open Tableau and import `average_temperature_by_year.csv` to create line chart:
+   - Drag Year to Columns  
+   - Drag AverageTemperature to Rows  
+   - Select Line Chart
+
+## 📷 Visual Previews
 
 
-🎯 Objective
-To investigate historical global temperature patterns and visualize climate change trends using data science tools and interactive apps.
+| ![Streamlit](images/streamlit_screenshot.png) | ![Tableau](images/tableau_linechart.png) |
 
 
-📊 Dataset
-Source: Kaggle - Global Climate Change Dataset
-
-Data: Yearly average global land temperatures from 1850 to 2024
-
-Link:https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data
-
-Format: CSV
 
 
-⚙️ Tech Stack
-Language: Python
 
-Libraries: pandas, numpy, scikit-learn, plotly, seaborn, matplotlib
-
-Visualization Tools: Tableau, Streamlit
-
-Environment: Jupyter Notebook, Web browser
-
-
-🧠 Skills Demonstrated
-Time Series Analysis
-
-Exploratory Data Analysis (EDA)
-
-Data Cleaning and Transformation
-
-Interactive Dashboards with Streamlit
-
-Tableau-based Visualization
-
-End-to-End Project Deployment
-
-
-📈 Results Summary
-Year Range	Observation
-1850–1900	Relatively stable, cooler average temperatures
-1901–2000	Gradual warming trend starts post-industrialization
-2000–2024	Steep rise in global temperatures
-
-🚀 How to Run
-Jupyter Notebook
-bash
-Copy
-Edit
-git clone https://github.com/YOUR_USERNAME/climate-change-analysis.git
-cd climate-change-analysis
-pip install -r requirements.txt
-jupyter notebook Climate_Change_Analysis.ipynb
-
-Streamlit App
-bash
-Copy
-Edit
-streamlit run streamlit_app.py
-
-📸 Sample Visualizations
-Add screenshots from:
-
-The Jupyter Notebook (temperature trends)
-
-Tableau Line Chart
-
-Streamlit App
-
-💡 Key Insights
-Global surface temperatures have increased steadily since the 20th century.
-
-Post-2000 era exhibits the fastest temperature growth.
-
-Clear evidence of climate change from long-term data trends.
