@@ -55,6 +55,8 @@ Environment: Jupyter Notebook, Streamlit App
 
 ## 📷 Visual Previews
 
+![global_land_temperature_trend](https://github.com/user-attachments/assets/a2625ead-62ff-403a-8d4c-f9e8fcd90979)
+
 
 | ![Streamlit](images/streamlit_screenshot.png) | ![Tableau](images/tableau_linechart.png) |
 
