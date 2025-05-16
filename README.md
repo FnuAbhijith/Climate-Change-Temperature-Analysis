@@ -2,6 +2,9 @@
 
 This project explores historical climate change by analyzing Earth’s surface temperature trends from 1750 to 2024. It combines Python-based data analysis, Streamlit for interactive dashboards, and Tableau for visual storytelling.
 
+![Climate-Change-Temperature-Analysis](https://github.com/user-attachments/assets/f33f04af-e71f-4a75-9ba9-d72da948969a)
+
+
 ## 📌 Objective
 
 To uncover long-term global warming patterns using data and present insights through engaging and interactive visualizations.
