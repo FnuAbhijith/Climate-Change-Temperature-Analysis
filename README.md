@@ -4,74 +4,90 @@ This project explores historical climate change by analyzing Earth’s surface t
 
 ![Climate-Change-Temperature-Analysis](https://github.com/user-attachments/assets/f33f04af-e71f-4a75-9ba9-d72da948969a)
 
+🔹 Problem Statement
 
-## 📌 Objective
+Climate change is one of the most pressing issues of our time. Rising global temperatures have significant impacts on ecosystems, economies, and human health. By analyzing long-term temperature datasets, we can better understand trends, seasonality, and country-level variations.
 
-To uncover long-term global warming patterns using data and present insights through engaging and interactive visualizations.
+Goal: Perform exploratory data analysis (EDA) on global land temperature data, visualize trends, and build an interactive dashboard for storytelling.
 
-## 📊 Dataset
+🔹 Dataset
 
-- Source: Kaggle – Global Land Temperatures  
-  https://www.kaggle.com/datasets/zahidmughal2343/global-cancer-patients-2015-2024  
-- Content: Yearly average land temperatures worldwide
+- Source: Berkeley Earth / Kaggle – Global Land Temperatures by Country
 
-## 🧠 Skills Demonstrated
+- Timeframe: 1750 – 2015
 
-- Time Series Analysis  
-- Data Cleaning and Preprocessing  
-- Interactive Dashboard Design (Streamlit)  
-- Data Visualization (Matplotlib, Plotly, Tableau)  
-- Exploratory Data Analysis (EDA)
+- Features:
 
-## ⚙️ Tech Stack
+- dt → date
 
-Language: Python  
-Libraries: pandas, numpy, matplotlib, seaborn, plotly, streamlit  
-Visualization: Tableau  
-Environment: Jupyter Notebook, Streamlit App
+- AverageTemperature
 
-## 📈 Results Summary
+- AverageTemperatureUncertainty
 
-| Metric                        | Description                                      |
-|------------------------------|--------------------------------------------------|
-| Time Frame                   | 1750–2024                                        |
-| Trend Observed               | Steady global temperature increase since 1900   |
-| Interactive Dashboard        | Built using Streamlit                           |
-| Tableau Visualization        | Yearly Line Chart of Avg. Global Temperature    |
+Country
 
-## 🚀 How to Run
+🔹 Approach
 
-1. Clone the repository:
-   git clone https://github.com/YOUR_USERNAME/climate-change-analysis.git
-   cd climate-change-analysis
+Data Cleaning
 
-2. Install required packages:
-   pip install -r requirements.txt
+Removed missing/unreliable early records (pre-1850)
 
-3. Run the Streamlit app:
-   streamlit run streamlit_app.py
+Handled missing temperature values with rolling means
 
-4. Open Tableau and import `average_temperature_by_year.csv` to create line chart:
-   - Drag Year to Columns  
-   - Drag AverageTemperature to Rows  
-   - Select Line Chart
+Aggregated data by year and country
 
-## 📷 Visual Previews
+Exploratory Data Analysis (EDA)
 
-### Output
+Global average temperature trends over 250+ years
 
-![global_land_temperature_trend](https://github.com/user-attachments/assets/a2625ead-62ff-403a-8d4c-f9e8fcd90979)
+Country-level warming rates (e.g., India vs USA vs Europe)
 
+Seasonal variation patterns
 
-### Streamlit Dashboard
+Trend decomposition → long-term trend vs seasonality (using STL)
 
-![streamlit_temperature_dashboard](https://github.com/user-attachments/assets/34130dad-4bd1-4447-a1da-381b41e92fd4)
+Visualization
 
-![streamlit_temperature_dashboard (2)](https://github.com/user-attachments/assets/374f951f-fea3-45d6-acf2-2666149c78ed)
+Time-series plots (global warming trend)
 
+Heatmaps (temperature anomalies by decade & country)
 
+Country ranking (warming rate °C/decade)
+
+Interactive dashboard in Streamlit/Tableau
+
+🔹 Results
+
+🌡 Global warming trend: Global land temperature has increased by ~1.2°C since the late 19th century.
+
+📈 Acceleration: Warming has sharply accelerated since 1950.
+
+🌍 Country differences: Northern hemisphere countries (e.g., Russia, Canada) show higher warming rates than equatorial regions.
+
+📊 Seasonality: Winters are warming faster than summers in many regions.
+
+🔹 Visualizations
+Global Warming Trend
 
 
+Heatmap of Temperature Anomalies
+
+
+Country Ranking
 
 
 
+
+🔹 Tech Stack
+
+Python: pandas, numpy, matplotlib, seaborn, statsmodels
+
+Visualization: Tableau, Streamlit
+
+Time-series decomposition: statsmodels.tsa.seasonal.STL
+
+🔹 How to Run
+git clone https://github.com/FnuAbhijith/Climate-Change-Temperature-Analysis.git
+cd Climate-Change-Temperature-Analysis
+pip install -r requirements.txt
+streamlit run app.py
