@@ -28,43 +28,43 @@ Country
 
 🔹 Approach
 
-Data Cleaning
+1. Data Cleaning
 
-Removed missing/unreliable early records (pre-1850)
+- Removed missing/unreliable early records (pre-1850)
 
-Handled missing temperature values with rolling means
+- Handled missing temperature values with rolling means
 
-Aggregated data by year and country
+- Aggregated data by year and country
 
-Exploratory Data Analysis (EDA)
+2. Exploratory Data Analysis (EDA)
 
-Global average temperature trends over 250+ years
+- Global average temperature trends over 250+ years
 
-Country-level warming rates (e.g., India vs USA vs Europe)
+- Country-level warming rates (e.g., India vs USA vs Europe)
 
-Seasonal variation patterns
+- Seasonal variation patterns
 
-Trend decomposition → long-term trend vs seasonality (using STL)
+- Trend decomposition → long-term trend vs seasonality (using STL)
 
-Visualization
+3. Visualization
 
-Time-series plots (global warming trend)
+- Time-series plots (global warming trend)
 
-Heatmaps (temperature anomalies by decade & country)
+- Heatmaps (temperature anomalies by decade & country)
 
-Country ranking (warming rate °C/decade)
+- Country ranking (warming rate °C/decade)
 
-Interactive dashboard in Streamlit/Tableau
+- Interactive dashboard in Streamlit/Tableau
 
 🔹 Results
 
-🌡 Global warming trend: Global land temperature has increased by ~1.2°C since the late 19th century.
+- 🌡 Global warming trend: Global land temperature has increased by ~1.2°C since the late 19th century.
 
-📈 Acceleration: Warming has sharply accelerated since 1950.
+- 📈 Acceleration: Warming has sharply accelerated since 1950.
 
-🌍 Country differences: Northern hemisphere countries (e.g., Russia, Canada) show higher warming rates than equatorial regions.
+- 🌍 Country differences: Northern hemisphere countries (e.g., Russia, Canada) show higher warming rates than equatorial regions.
 
-📊 Seasonality: Winters are warming faster than summers in many regions.
+- 📊 Seasonality: Winters are warming faster than summers in many regions.
 
 🔹 Visualizations
 Global Warming Trend
@@ -80,11 +80,11 @@ Country Ranking
 
 🔹 Tech Stack
 
-Python: pandas, numpy, matplotlib, seaborn, statsmodels
+- Python: pandas, numpy, matplotlib, seaborn, statsmodels
 
-Visualization: Tableau, Streamlit
+- Visualization: Tableau, Streamlit
 
-Time-series decomposition: statsmodels.tsa.seasonal.STL
+- Time-series decomposition: statsmodels.tsa.seasonal.STL
 
 🔹 How to Run
 git clone https://github.com/FnuAbhijith/Climate-Change-Temperature-Analysis.git
