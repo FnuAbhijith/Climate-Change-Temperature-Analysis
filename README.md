@@ -58,13 +58,13 @@ Country
 
 🔹 Results
 
-- 🌡 Global warming trend: Global land temperature has increased by ~1.2°C since the late 19th century.
+🌡 Global warming trend: Global land temperature has increased by ~1.2°C since the late 19th century.
 
-- 📈 Acceleration: Warming has sharply accelerated since 1950.
+📈 Acceleration: Warming has sharply accelerated since 1950.
 
-- 🌍 Country differences: Northern hemisphere countries (e.g., Russia, Canada) show higher warming rates than equatorial regions.
+🌍 Country differences: Northern hemisphere countries (e.g., Russia, Canada) show higher warming rates than equatorial regions.
 
-- 📊 Seasonality: Winters are warming faster than summers in many regions.
+📊 Seasonality: Winters are warming faster than summers in many regions.
 
 🔹 Visualizations
 Global Warming Trend
