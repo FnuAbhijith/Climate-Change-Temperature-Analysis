@@ -30,31 +30,31 @@ Country
 
 1. Data Cleaning
 
-- Removed missing/unreliable early records (pre-1850)
+  - Removed missing/unreliable early records (pre-1850)
 
-- Handled missing temperature values with rolling means
+  - Handled missing temperature values with rolling means
 
-- Aggregated data by year and country
+  - Aggregated data by year and country
 
 2. Exploratory Data Analysis (EDA)
 
-- Global average temperature trends over 250+ years
+  - Global average temperature trends over 250+ years
 
-- Country-level warming rates (e.g., India vs USA vs Europe)
+  - Country-level warming rates (e.g., India vs USA vs Europe)
 
-- Seasonal variation patterns
+  - Seasonal variation patterns
 
-- Trend decomposition → long-term trend vs seasonality (using STL)
+  - Trend decomposition → long-term trend vs seasonality (using STL)
 
 3. Visualization
 
-- Time-series plots (global warming trend)
+  - Time-series plots (global warming trend)
 
-- Heatmaps (temperature anomalies by decade & country)
+  - Heatmaps (temperature anomalies by decade & country)
 
-- Country ranking (warming rate °C/decade)
+  - Country ranking (warming rate °C/decade)
 
-- Interactive dashboard in Streamlit/Tableau
+  - Interactive dashboard in Streamlit/Tableau
 
 🔹 Results
 
@@ -67,13 +67,14 @@ Country
 📊 Seasonality: Winters are warming faster than summers in many regions.
 
 🔹 Visualizations
-Global Warming Trend
+
+  - Global Warming Trend
 
 
-Heatmap of Temperature Anomalies
+  - Heatmap of Temperature Anomalies
 
 
-Country Ranking
+  - Country Ranking
 
 
 
